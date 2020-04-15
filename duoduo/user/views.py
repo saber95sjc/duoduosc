@@ -556,9 +556,11 @@ def zfrw(request,*args,**kwargs):
                 return JsonResponse(ret)
 
 
-
-
 def sy(request,*args,**kwargs):
     #首页
     if request.method == 'GET':
         return render(request,'index.html')
+
+
+def test():
+    pass
